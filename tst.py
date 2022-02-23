@@ -10,8 +10,6 @@ url = "https://web.rubika.ir"
 
 while True:
 
-time.sleep(3)
-
 pyload ={"cellphone": target}
 
 u = requests.post(url, data=pyload)
